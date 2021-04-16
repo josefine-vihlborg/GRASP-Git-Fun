@@ -44,4 +44,6 @@ public abstract class Bil {
   public void setAntalDøre(String antalDøre) {
     this.antalDøre = antalDøre;
   }
+
+  public abstract double beregnGrønEjerAfgift();
 }
